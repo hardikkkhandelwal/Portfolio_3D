@@ -18,7 +18,7 @@ function LandingPage() {
                   className="h-[7.5vw] sm:h-[6.5vw] md:h-[5.8vw] mr-[1.5vw] rounded-sm sm:rounded-md overflow-hidden relative top-[0.5vw] sm:top-[0.9vw]"
                 >
                   <img
-                    src="/Portfolio_Pro/mclaren.png"
+                    src="/Portfolio_Pro/Lotus-Emira.png"
                     alt=""
                     className="w-full h-full object-cover object-center"
                   />
