@@ -22,7 +22,7 @@ function FooterUpgrade() {
 
     return (
         // Wrapper hides any gap caused by the parallax shift at the bottom
-        <div className="w-full bg-[#FF6D00] md:bg-[#0A0A0A]">
+        <div className="w-full bg-[#0A0A0A]">
             <div
                 ref={footerRef}
                 id="contact"
