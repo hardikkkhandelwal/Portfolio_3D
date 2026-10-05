@@ -13,12 +13,12 @@ function LandingPage() {
               {index === 1 && (
                 <motion.div
                   initial={{ width: 0 }}
-                  animate={{ width: "12vw" }}
+                  animate={{ width: "18vw" }}
                   transition={{ ease: [0.85, 0, 0.15, 1], duration: 1.2, delay: 7 }}
-                  className="h-[7.5vw] sm:h-[6.5vw] md:h-[5.8vw] mr-[1.5vw] rounded-sm sm:rounded-md overflow-hidden relative top-[0.5vw] sm:top-[0.9vw]"
+                  className="h-[10vw] sm:h-[8vw] md:h-[10vw] mr-[1.5vw] rounded-sm sm:rounded-md overflow-hidden relative top-[0.5vw] sm:top-[0.9vw]"
                 >
                   <img
-                    src="/Portfolio_Pro/Lotus-Emira.png"
+                    src="/Portfolio_3D/Lotus-Emira.png"
                     alt=""
                     className="w-full h-full object-cover object-center"
                   />

@@ -22,7 +22,7 @@ function Featured() {
               <h1 className='absolute flex overflow-hidden z-[999] text-xl sm:text-3xl md:text-5xl -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2 leading-none tracking-tight whitespace-nowrap max-w-[90%] pointer-events-none drop-shadow-lg md:drop-shadow-none'>
                 {"Atom X Octaspace".split('').map((item, index) => <motion.span initial={{ y: "0%" }} animate={hovering ? ({ y: "0%" }) : ({ y: "100%" })} transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.01 }} className='inline-block text-[#CDEA68]'> {item === ' ' ? '\u00A0' : item}</motion.span>)}
               </h1>
-              <motion.video whileHover={{ scale: 0.95 }} transition={{ ease: Power1.easeOut }} src="/Portfolio_Pro/videos/drift.mp4" loop muted autoPlay className='w-full h-full object-cover rounded-xl'></motion.video>
+              <motion.video whileHover={{ scale: 0.95 }} transition={{ ease: Power1.easeOut }} src="/Portfolio_3D/videos/drift.mp4" loop muted autoPlay className='w-full h-full object-cover rounded-xl'></motion.video>
             </div>
           </div>
           <div className='cardcontainer relative w-full md:w-1/2 h-[45vh] sm:h-[60vh] md:h-[75vh]'>
@@ -30,7 +30,7 @@ function Featured() {
               <h1 className='absolute flex overflow-hidden z-[999] text-xl sm:text-3xl md:text-5xl -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2 leading-none tracking-tight whitespace-nowrap max-w-[90%] pointer-events-none drop-shadow-lg md:drop-shadow-none'>
                 {"Atom X K-Performance".split('').map((item, index) => <motion.span initial={{ y: "0%" }} animate={hovering2 ? ({ y: "0%" }) : ({ y: "100%" })} transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.01 }} className='inline-block text-[#CDEA68]'> {item === ' ' ? '\u00A0' : item}</motion.span>)}
               </h1>
-              <motion.video whileHover={{ scale: 0.95 }} transition={{ ease: Power1.easeOut }} src="/Portfolio_Pro/videos/at0mK.mp4" loop muted autoPlay className='w-full h-full object-cover rounded-xl'></motion.video>
+              <motion.video whileHover={{ scale: 0.95 }} transition={{ ease: Power1.easeOut }} src="/Portfolio_3D/videos/at0mK.mp4" loop muted autoPlay className='w-full h-full object-cover rounded-xl'></motion.video>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Featured() {
               <h1 className='absolute flex overflow-hidden z-[999] text-2xl sm:text-4xl md:text-5xl -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2 leading-none tracking-tight whitespace-nowrap pointer-events-none drop-shadow-lg md:drop-shadow-none'>
                 {"Atom X Launch Control".split('').map((item, index) => <motion.span initial={{ y: "0%" }} animate={hovering3 ? ({ y: "0%" }) : ({ y: "100%" })} transition={{ ease: [0.83, 0, 0.17, 1], delay: index * 0.01 }} className='inline-block text-[#CDEA68]'> {item === ' ' ? '\u00A0' : item}</motion.span>)}
               </h1>
-              <motion.video whileHover={{ scale: 0.95 }} transition={{ ease: Power1.easeOut }} src="/Portfolio_Pro/videos/FordGT.mp4" loop muted autoPlay className='w-full h-full object-cover rounded-xl'></motion.video>
+              <motion.video whileHover={{ scale: 0.95 }} transition={{ ease: Power1.easeOut }} src="/Portfolio_3D/videos/FordGT.mp4" loop muted autoPlay className='w-full h-full object-cover rounded-xl'></motion.video>
             </div>
           </div>
         </div>

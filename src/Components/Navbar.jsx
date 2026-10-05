@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <div className={`fixed z-[999] w-full px-6 sm:px-12 md:px-20 py-2 sm:py-1 font-['Montreal'] flex justify-between items-center ${sticky ? 'dark-nav' : ""}`}>
       <div className='logo'>
-        <img className='w-16 sm:w-20' src="/Portfolio_Pro/At0mwebsiteWhite.png" alt="Logo" />
+        <img className='w-16 sm:w-20' src="/Portfolio_3D/At0mwebsiteWhite.png" alt="Logo" />
       </div>
       <div className='links flex gap-6 sm:gap-10 tracking-tight'>
         {["Portfolio"].map((item, index) => {
